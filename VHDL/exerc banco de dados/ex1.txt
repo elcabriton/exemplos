@@ -1,0 +1,40 @@
+exercise 1
+SELECT users.login 
+FROM users
+
+exercise 2
+
+SELECT planos.descricao , users.login 
+FROM planos, users
+
+exercise 3
+SELECT artistas.nome FROM artistas
+ 
+exercise 4
+nao tem limite de dowloads
+exercise 5
+nao tem gravadora
+
+exercise 6
+nao tem gravadora
+
+exercise 7
+SELECT artistas.nome, musicas.nome FROM artistas
+JOIN musicas ON musicas.id=artistas.id
+WHERE artistas.nome='Mano Lima'
+
+exercise 8
+
+exercise 9
+SELECT generos.descricao, musicas.id FROM generos
+JOIN musicas ON musicas.id=genero_id
+(falto a soma)
+
+exercise 10
+
+
+
+
+
+
+
